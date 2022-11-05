@@ -4,24 +4,24 @@
 import PackageDescription
 
 let package = Package(
-    name: "MuFiles",
+    name: "MuArchive",
     platforms: [.iOS(.v15)],
     products: [
         .library(
-            name: "MuFiles",
-            targets: ["MuFiles"]),
+            name: "MuArchive",
+            targets: ["MuArchive"]),
     ],
     dependencies: [
         .package(url: "https://github.com/weichsel/ZIPFoundation", from: "0.9.15"),
     ],
     targets: [
         .target(
-            name: "MuFiles",
+            name: "MuArchive",
             dependencies: [
                 .product(name: "ZIPFoundation", package: "ZIPFoundation"),
             ]),
         .testTarget(
-            name: "MuFilesTests",
-            dependencies: ["MuFiles", "ZIPFoundation"]),
+            name: "MuArchiveTests",
+            dependencies: ["MuArchive", "ZIPFoundation"]),
     ]
 )

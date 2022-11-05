@@ -1,11 +1,11 @@
 import XCTest
-@testable import MuFiles
+@testable import MuArchive
 
-final class MuFilesTests: XCTestCase {
+final class MuArchiveTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(MuFiles().text, "Hello, World!")
+        // XCTAssertEqual(MuFiles().text, "Hello, World!")
     }
 }
