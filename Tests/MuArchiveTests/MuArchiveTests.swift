@@ -6,6 +6,6 @@ final class MuArchiveTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        // XCTAssertEqual(MuFiles().text, "Hello, World!")
+        // XCTAssertEqual(MuArchive().text, "Hello, World!")
     }
 }
